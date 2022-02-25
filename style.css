@@ -5,3 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+#ft-perfil {
+    border-radius: 50%;
+    width: 50px;
+}
+
+#menu > a {
+    padding: 0 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu > a:hover {
+    color: purple;
+    transition: 450ms;
+}
+
+section {
+    background: linear-gradient(to right, rgb(109, 0, 0), rgb(88, 82, 82), purple);
+}
+
+.categorias {
+    text-align: center;
+    padding: 25px auto;
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-me > p {
+    width: 370px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
